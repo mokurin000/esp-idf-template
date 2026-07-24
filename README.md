@@ -20,7 +20,8 @@ For more check out the links in the additional [information section](#additional
 
 ## Generate the project
 
-> NOTE: If you have set `IDF_PATH`, the specified ESP IDF SDK will be
+> [!NOTE]
+> If you have set `IDF_PATH`, the specified ESP IDF SDK will be
 > used instead, regard less what version you selected here.
 >
 > Meanwhile, `esp-idf-sys` will just ignore `IDF_TOOLS_PATH`.
@@ -36,7 +37,7 @@ The command will display a few prompts:
 - `Which MCU to target?`: SoC model, e.g. `esp32`, `esp32s2`, `esp32c3` etc.
 - `Configure advanced template options?`: If `false`, skips the rest of the prompts and uses their default value. If `true`, you will be prompted with:
   - `ESP-IDF Version`: ESP-IDF branch/tag to use. Possible choices:
-    - [`v5.3.3`](https://github.com/espressif/esp-idf/releases/tag/v5.5.3): Stable
+    - [`v5.5.3`](https://github.com/espressif/esp-idf/releases/tag/v5.5.3): Stable
     - [`v5.4.3`](https://github.com/espressif/esp-idf/releases/tag/v5.4.3): Stable
     - [`v5.3.4`](https://github.com/espressif/esp-idf/releases/tag/v5.3.4): Stable
     - [`master`](https://github.com/espressif/esp-idf/tree/master): **Unstable**. Please do NOT choose the `master` ESP IDF version, unless you
